@@ -21,11 +21,11 @@ const Navbar = () => {
   return (
     <nav style={navbarStyle}>
       <div style={logoStyle}>Travel Operator Admin Dashboard</div>
-      <div style={navRight}>
+      {/* <div style={navRight}>
         <input type="text" placeholder="Search..." value={searchQuery} onChange={handleSearch} style={searchBar} />
         <button style={buttonStyle} onClick={handleLogin}>Login</button>
         <button style={buttonStyle} onClick={handleSignup}>Sign Up</button>
-      </div>
+      </div> */}
     </nav>
   );
 };
